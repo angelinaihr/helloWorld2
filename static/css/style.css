@@ -1,0 +1,34 @@
+/* These are my classes */
+.fancy {
+    background-color: lightblue;
+    padding: 2px;
+}
+
+img.logo {
+    height: 72px;
+    width: 267px;
+}
+
+/* This is for my paragraphs*/
+p {
+    color: lightblue;
+    border-top: 2px solid black;
+    padding: 3px;
+}
+
+p#new_type {
+    color: darkgrey;
+    font-weight: bold;
+}
+
+h2 {
+    color: darkblue;
+    text-decoration: underline;
+
+}
+
+/* This is for my table and other table related items */
+table, th, td {
+    border: 2px solid darkblue;
+    padding: 2px;
+}
