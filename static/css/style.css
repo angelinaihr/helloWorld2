@@ -21,14 +21,57 @@ p#new_type {
     font-weight: bold;
 }
 
-h2 {
+header, h2 {
     color: darkblue;
     text-decoration: underline;
 
+}
+
+title {
+    margin-bottom: 35px;
 }
 
 /* This is for my table and other table related items */
 table, th, td {
     border: 2px solid darkblue;
     padding: 2px;
+}
+
+form {
+    background-color: white;
+    padding: 20px;
+    border: 2px solid lightblue;
+    border-radius: 8px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+/* Form labels */
+.form-label {
+    color: darkblue;
+    font-weight: bold;
+}
+
+/* Text inputs and dropdown */
+.form-control,
+.form-select {
+    border: 1px solid lightblue;
+    border-radius: 5px;
+}
+
+/* Checkbox label */
+.form-check-label {
+    color: darkblue;
+}
+
+/* Submit button */
+.btn-primary {
+    background-color: darkblue;
+    border-color: darkblue;
+}
+
+/* Submit button hover */
+.btn-primary:hover {
+    background-color: #4169a1;
+    border-color: #4169a1;
 }
